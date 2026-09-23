@@ -8,7 +8,7 @@
 
 > 当前处于早期测试阶段。本仓库用于发布安装包、更新日志和接收反馈，不包含应用源代码。部分测试包仍使用开发名称 **CrushOS**；请以每个版本的说明为准。
 
-[下载与更新](https://github.com/lixuanan2/xinyu/releases) · [反馈问题](https://github.com/lixuanan2/xinyu/issues)
+[Mac 1.6.4 测试版](https://github.com/lixuanan2/xinyu/releases/tag/macos-v1.6.4) · [所有发布](https://github.com/lixuanan2/xinyu/releases) · [反馈问题](https://github.com/lixuanan2/xinyu/issues)
 
 ## 可以做什么
 
@@ -22,12 +22,12 @@
 
 ## 下载与安装
 
-请前往 [Releases](https://github.com/lixuanan2/xinyu/releases)，阅读版本说明后下载 **Assets 中明确标注的安装包**。若页面暂时没有版本，表示公开安装包尚未上传。
+请前往 [Releases](https://github.com/lixuanan2/xinyu/releases)，阅读版本说明后下载 **Assets 中明确标注的安装包**。目前公开的是 macOS 1.6.4 预发布测试版；它未完成 Developer ID 签名与 Apple 公证，不会触发应用内稳定版更新提示。
 
 | 平台 | 发布形式 | 注意事项 |
 | --- | --- | --- |
-| Android | APK 测试包 | 选择匹配设备架构的附件；升级前阅读数据兼容说明，不要为更新而先卸载旧版 |
-| macOS | 包含 `.app` 的 ZIP | 当前最低 macOS 14；具体架构、签名与公证状态见版本说明 |
+| Android | 暂无公开安装包 | 1.7.1 目前仅有本地调试签名 APK，尚未完成真机验收；不要从第三方渠道寻找所谓正式版 |
+| macOS | 包含 `.app` 的 ZIP | 1.6.4 测试版支持 Apple 芯片与 Intel，最低 macOS 14；签名与公证状态见版本说明 |
 | iOS | 暂无公开安装包 | 后续以本仓库公告为准 |
 
 GitHub 自动生成的 **Source code (zip / tar.gz)** 不是安装包，只包含本发布仓库的公开文件。
